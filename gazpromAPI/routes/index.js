@@ -40,7 +40,6 @@ router.get('/', function (req, res, next) {
             "maxValue": 1200
         }
     ];
-    console.log("SUKA")
     res.json({
         towerIndicator,
         status: 'success'
