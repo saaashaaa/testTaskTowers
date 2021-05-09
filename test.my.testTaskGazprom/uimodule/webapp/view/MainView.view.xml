@@ -1,0 +1,18 @@
+ <mvc:View controllerName="test.my.testTaskGazprom.controller.MainView"
+  displayBlock="true"
+  xmlns="sap.m"
+  xmlns:l="sap.ui.layout"
+  xmlns:mvc="sap.ui.core.mvc">
+  <App id="idAppControl" >
+    <pages>
+      <Page title="{i18n>title}">
+        <content>
+          <l:HorizontalLayout id="staticContentLayout">
+            <l:content>
+            </l:content>
+          </l:HorizontalLayout>
+        </content>
+      </Page>
+    </pages>
+  </App>
+</mvc:View>

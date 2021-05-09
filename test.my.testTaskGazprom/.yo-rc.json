@@ -1,0 +1,21 @@
+{
+  "generator-template-ui5-project": {
+    "projectname": "testTaskGazprom",
+    "namespace": "test.my",
+    "platform": "Static webserver",
+    "viewtype": "XML",
+    "ui5libs": "Content delivery network (OpenUI5)",
+    "newdir": true,
+    "namespaceURI": "test/my",
+    "opa5pos": [
+      "Main"
+    ],
+    "opa5Journeys": [
+      "Main"
+    ],
+    "uimodules": [
+      "uimodule"
+    ],
+    "setupCompleted": true
+  }
+}

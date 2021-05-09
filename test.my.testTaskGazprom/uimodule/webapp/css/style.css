@@ -1,0 +1,161 @@
+/* Enter your custom styles here */
+.sapMTitle_Css {
+  color: #346187 !important;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 14px;
+  font-weight: 300;
+  height: 41px;
+  margin-top: 20px;
+}
+
+.text {
+  height: 41px;
+  margin-top: 20px;
+  color: white;
+  word-wrap: normal;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 17px;
+}
+
+h4 {
+  margin-top: 5px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, p {
+  color: white;
+  word-wrap: normal;
+}
+
+.tower {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 29px;
+}
+
+.top-line {
+  width: 47px;
+  height: 4px;
+  background: #8B959F;
+  border: none;
+}
+
+.line {
+  width: 154px;
+  height: 4px;
+  background: #CBCBCB;
+  border: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.main {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: #2D2D32;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 190px;
+}
+
+.status {
+  background: #21B149;
+  width: 68px;
+  height: 3px;
+  border: none;
+}
+
+#MyHTMLView, .sapUiView {
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  width: 137px;
+  height: 92px;
+  background: linear-gradient(90deg, #616166 2.42%, #9B9B9B 22.91%, #48484F 99.99%);
+}
+
+.triangle {
+  position: relative;
+  border-image: none;
+  height: 75px;
+  width: 137px;
+  background-image: linear-gradient(
+    90deg, #616166 -0.01%, #9B9B9B 20.99%, #48484F 99.99%);
+}
+
+.triangle:after {
+  content: "";
+  display: block;
+  height: 0;
+  border-left: 60px solid #2D2D32;
+  border-right: 60px solid #2D2D32;
+  border-top: 75px solid transparent;
+}
+
+.rectangle {
+  top: 13px;
+  left: 6px;
+  position: absolute;
+  width: 70px;
+  height: 43px;
+  background: none;
+  border: 3px solid #21B149;
+  border-radius: 20%;
+}
+
+.indicator {
+  position: absolute;
+  background: #21B149;
+  opacity: 62%;
+  left: 20%;
+  right: 20%;
+  bottom: 0%;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.forIndicator {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}

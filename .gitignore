@@ -1,0 +1,13 @@
+/test.my.testTaskGazprom/node_modules/
+/gazpromAPI/node_modules/
+/gazpromAPI/.idea/
+/test.my.testTaskGazprom/.idea/
+.mta/
+*.mtar
+dist/
+package-lock.json
+mta_archives/
+deployer/resources/
+Makefile*
+mta-*
+approuter/*/webapp/
